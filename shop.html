@@ -5,220 +5,404 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop</title>
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    
-<link rel="stylesheet" href="home.css">
 
-
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
 
 </head>
 <body>
+    <header class="header">
+        
+        <a href="#" class="logo" > <i class="fas fa-tree"></i> 𝓢𝓗𝓞𝓑𝓤𝓙 </a>
     
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="events.html">events</a>
+            <a href="shop.html">shop</a>
+            <a href="blog.html">blogs</a>
+            <a href="contact.htm">Contact Us</a>
+    
+    
+        </nav>
+    
+    <div class="icons">
+    <div class="fas fa-search" id="search-btn"></div>
+    <div class="fas fa-user" id="login-btn"></div>
+    
+    </div>
+    
+    <form action="" class="search-form">
+    <input type="search" id="search-box" placeholder="search here....">
+    <label for="search-box" class="fas fa-search"></label>
+    
+    </form>
+    
+    
+    
+    <form action="" class="login-form">
+    <h3>login now</h3>
+    <input type="email" placeholder="User name" class="box">
+    <input type="password" placeholder="password" class="box">
+    <p>Forgot password?<a href="#">click here</a></p>
+    <p>Don't have an account?<a href="registration.html">Join Us</a></p>
+    <input type="submit" value="login now" class="btn">
+    
+    
+    
+    </form>
+    
+    </header>
+    <section class="shop" id="shop">
 
-    <section class="product" id="product">
-
-        <h1 class="heading"> Shop Here</h1>
-        <div class=" swiper product-slider">
-
-            <div class="swiper-wrapper">
-
-                <div class="swiper-slide box">
-
-                    <img src="plant11.png" alt="">
-                    <h3>Mini tree</h3>
-                    <div class="price">$4.99</div>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <img src="plant11.png" alt="">
+                <h3>Monstera</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
-
                     </div>
-                    <a href="#" class="btn">Buy Now</a>
-                </div>
-                <div class="swiper-slide box">
-                    
-
-                    <img src="plant12.jpg" alt="">
-                    <h3>Mini tree</h3>
-                    <div class="price">$4.99</div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-
-                    </div>
-                    <a href="#" class="btn">Buy Now</a>
-                </div>
-
-                <div class="swiper-slide box">
-
-                    <img src="plant13.png" alt="">
-                    <h3>Mini tree</h3>
-                    <div class="price">$4.99</div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-
-                    </div>
-                    <a href="#" class="btn">Buy Now</a>
-                </div>
-                
-                <div class="swiper-slide box">
-
-                    <img src="plant14.jpg" alt="">
-                    <h3>Mini tree</h3>
-                    <div class="price">$4.99</div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-
-                    </div>
-                    <a href="#" class="btn">Buy Now</a>
-                </div>
-
+                <p>upto 30% off</p>
+                <a href="#" class="btn">shop now</a>
             </div>
+    
+            <div class="box">
+                <img src="plant12.jpg" alt="">
+                <h3> Inchplant</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                <p>upto 25% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+    
+            <div class="box">
+                <img src="plant13.png" alt="">
+                <h3>Ponytail Palm</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                <p>upto 15% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+    
+            <div class="box">
+                <img src="plant16.png" alt="">
+                <h3>Dumb Cane</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                <p>upto 10% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+    
         </div>
 
-        <div class="swiper product-slider">
 
-            <div class="swiper-wrapper">
 
-                <div class="swiper-slide box">
-
-                    <img src="plant15.jpg" alt="">
-                    <h3>Mini tree</h3>
-                    <div class="price">$4.99</div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-
-                    </div>
-                    <a href="#" class="btn">Buy Now</a>
-                </div>
-                <div class="swiper-slide box">
-
-                    <img src="plant16.png" alt="">
-                    <h3>Mini tree</h3>
-                    <div class="price">$4.99</div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-
-                    </div>
-                    <a href="#" class="btn">Buy Now</a>
-                </div>
-
-                <div class="swiper-slide box">
-
-                    <img src="plant17.jpg" alt="">
-                    <h3>Mini tree</h3>
-                    <div class="price">$4.99</div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-
-                    </div>
-                    <a href="#" class="btn">Buy Now</a>
-                </div>
-                
-                <div class="swiper-slide box">
-
-                    <img src="plant18.jpg" alt="">
-                    <h3>Mini tree</h3>
-                    <div class="price">$4.99</div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-
-                    </div>
-                    <a href="#" class="btn">Buy Now</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="footer">
 
         <div class="box-container">
-        
+    
             <div class="box">
-        
-                <h3> 𝓢𝓗𝓞𝓑𝓤𝓙 <i class="fas fa-tree"></i></h3>
-                <p>plase share your experiences</p>
-                <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                    <a href="#" class="fab fa-linkedin"></a>
-                    
-        
-                </div>
+                <img src="plant11.png" alt="">
+                <h3>Monstera</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                <p>upto 30% off</p>
+                <a href="#" class="btn">shop now</a>
             </div>
+    
             <div class="box">
-        
-                <h3>Contact info</h3>
-                <a href="#" class="links"> <i class="fas fa-phone"></i> +880 1111-2223344 </a>
-                <a href="#" class="links"> <i class="fas fa-phone"></i> +880 1111-2223344 </a>
-                <a href="#" class="links"> <i class="fas fa-envelope"></i> mkk679g7658@gmail.com </a>
-                <a href="#" class="links"> <i class="fas fa-map-market-alt"></i> 20/2/A alinagar, dhaka-1206, Bangladesh </a>
-        
+                <img src="plant12.jpg" alt="">
+                <h3> Inchplant</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                <p>upto 25% off</p>
+                <a href="#" class="btn">shop now</a>
             </div>
-        
+    
             <div class="box">
-        
-                <h3>Quick Links</h3>
-                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
-                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> events </a>
-                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> shop </a>
-                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> about us </a>
-                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
-                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> news </a>
-        
-            
+                <img src="plant13.png" alt="">
+                <h3>Ponytail Palm</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                <p>upto 15% off</p>
+                <a href="#" class="btn">shop now</a>
             </div>
+    
             <div class="box">
-        
-                <h3>newsletter</h3>
-               <p> join us and explore more</p>
-               <button type="button" class="btn btn-primary" > <a href="registration.html"></a> join </button>
-               <img src="pay.png" class= "payment" alt="">
-               
-        
-            
+                <img src="plant16.png" alt="">
+                <h3>Dumb Cane</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                <p>upto 10% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+    
+        </div>
+    
+
+
+        <div class="box-container">
+    
+            <div class="box">
+                <img src="plant11.png" alt="">
+                <h3>Monstera</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                <p>upto 30% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+    
+            <div class="box">
+                <img src="plant12.jpg" alt="">
+                <h3> Inchplant</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                <p>upto 25% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+    
+            <div class="box">
+                <img src="plant13.png" alt="">
+                <h3>Ponytail Palm</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                <p>upto 15% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+    
+            <div class="box">
+                <img src="plant16.png" alt="">
+                <h3>Dumb Cane</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                <p>upto 10% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+    
+        </div>
+    
+
+        <div class="box-container">
+    
+            <div class="box">
+                <img src="plant11.png" alt="">
+                <h3>Monstera</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                <p>upto 30% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+    
+            <div class="box">
+                <img src="plant12.jpg" alt="">
+                <h3> Inchplant</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                <p>upto 25% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+    
+            <div class="box">
+                <img src="plant13.png" alt="">
+                <h3>Ponytail Palm</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                <p>upto 15% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+    
+            <div class="box">
+                <img src="plant16.png" alt="">
+                <h3>Dumb Cane</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                <p>upto 10% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+    
+        </div>
+    
+    
+    </section>
+
+
+
+<section>
+
+
+<div class="nxt">
+
+<a href="#" class="previous">&laquo; Previous</a>
+<a href="#" class="next">Next &raquo;</a>
+
+</div>
+
+
+
+</section>
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> 𝓢𝓗𝓞𝓑𝓤𝓙 <i class="fas fa-tree"></i></h3>
+            <p>plase share your experiences</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
             </div>
         </div>
-            
-        
-        </section>
-        
-        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
-        <!--js link -->
-        <script src="script.js"></script>
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> buytreeandplant@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> 20/2/A alinagar, dhaka-1206, Bangladesh  </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="events.html" class="links"> <i class="fas fa-arrow-right"></i> events </a>
+            <a href="shop.html" class="links"> <i class="fas fa-arrow-right"></i> shop </a>
+            <a href="blog.html" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+            <a href="contact.htm" class="links"> <i class="fas fa-arrow-right"></i> contact us </a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>Join us and explore more</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="Join Us" class="btn">
+            <img src="payment.png" class="payment-img" alt="">
+        </div>
+
+    </div>
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
 
 </body>
 </html>
