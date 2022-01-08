@@ -2,6 +2,7 @@
 
 :root{
     --black:#130f40;
+    --green:rgb(106, 223, 135);
     --light-color:#666;
     --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
     --border:.2rem solid rgba(0,0,0,.1);
@@ -66,7 +67,7 @@ section{
 }
 
 .btn:hover{
-    background: rgb(106, 223, 135);
+    background: var(--black);
     color:#fff;
 }
 
@@ -213,7 +214,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(pro6.jpg) no-repeat;
+    background: url(../img/pro6.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     padding-top: 17rem;
@@ -456,7 +457,12 @@ section{
     display: block;
 }
 
-
+.ucevent .heading{
+    margin-top: 8rem;
+    text-align: center;
+    padding: 3rem 3rem 3rem 3rem;
+    font-size: 2.5rem;
+}
 
 .event .box-container{
     display: grid;
@@ -498,7 +504,7 @@ section{
 
 
 .event{
-    margin-top: 10rem;
+    margin-top: 2rem;
     cursor: pointer;
 }
 
@@ -516,10 +522,15 @@ section{
     color: red;
 }
 
-
+.shop .heading{
+    margin-top: 8rem;
+    text-align: center;
+    padding: 3rem 3rem 3rem 3rem;
+    font-size: 2.5rem;
+}
 
 .shop .box-container{
-    margin-top: 8rem;
+    margin-top: 3rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
     gap:1.5rem;
@@ -569,13 +580,15 @@ section{
 
 
 .nxt a{
+    font-size: 2rem;
+    text-shadow: var(--black);
     text-decoration: none;
     display: inline-block;
-    padding: 2rem 5rem 2rem 5rem;
+    padding: 1.5rem 3rem 1.5rem 3rem;
   }
   
   .nxt a:hover{
-    background-color: #ddd;
+    background-color: var(--black);
     
   }
   
@@ -591,14 +604,74 @@ section{
 
 
 
+.blog .heading{
+    margin-top: 8rem;
+    text-align: center;
+    padding: 3rem 3rem 3rem 3rem;
+    font-size: 2.5rem;
+}
 
 
+  .blog .box-container{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
 
+.blog .box-container .box{
+    overflow: hidden;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    background:#fff;
+}
 
+.blog .box-container .box img{
+    height:25rem;
+    width:100%;
+    object-fit: cover;
+}
 
+.blog .box-container .box .content{
+    padding:2rem;
+}
 
+.blog .box-container .box .content .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    border-bottom: var(--border);
+}
 
+.blog .box-container .box .content .icons a{
+    color:var(--light-color);
+    font-size: 1.5rem;
+}
 
+.blog .box-container .box .content .icons a:hover{
+    color:var(--black);
+}
+
+.blog .box-container .box .content .icons a i{
+    color:var(--orange);
+    padding-right: .5rem;
+}
+
+.blog .box-container .box .content h3{
+    line-height: 1.8;
+    color:var(--black);
+    font-size: 2.2rem;
+    padding:.5rem 0;
+}
+
+.blog .box-container .box .content p{
+    line-height: 1.8;
+    color:var(--light-color);
+    font-size: 1.5rem;
+    padding:.5rem 0;
+}
 
 
 
