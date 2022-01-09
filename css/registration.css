@@ -4,7 +4,7 @@
 }
 body{
 
-background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)),url("good1.jpg");
+background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)),url("../img/good1.jpg");
 background-size:cover;
 background-position: center;
 font-family: sans-serif;
