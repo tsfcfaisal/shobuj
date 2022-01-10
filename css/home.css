@@ -44,6 +44,7 @@ section{
     font-size: 3.5rem;
     color:var(--black);
     background: rgb(136, 255, 156);
+    transition: 0.5s;
 }
 
 .container{
