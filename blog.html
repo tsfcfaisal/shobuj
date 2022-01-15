@@ -10,10 +10,14 @@
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
 </head>
 <body>
@@ -62,9 +66,9 @@
 
 <section class="blog" id="blog">
 
-    <h1 class="heading"> Our Blogs </h1>
+    <h1 class="heading animate__animated animate__flipInY"> Our Blogs </h1>
 
-    <div class="box-container">
+    <div class="box-container animate__animated animate__bounceInLeft">
 
         <div class="box">
             <a href="blogd.html"><img src="img/blog2.jpg" alt=""></a>
@@ -107,7 +111,7 @@
 
     </div>
 
-    <div class="box-container">
+    <div class="box-container"data-aos="fade-up-right">
 
         <div class="box">
             <img src="img/blog6.jpg" alt="">
@@ -150,7 +154,7 @@
 
     </div>
 
-    <div class="box-container">
+    <div class="box-container"data-aos="fade-up-left">
 
         <div class="box">
             <img src="img/blog9.jpg" alt="">
@@ -193,7 +197,7 @@
 
     </div>
 
-    <div class="box-container">
+    <div class="box-container"data-aos="fade-up-right">
 
         <div class="box">
             <img src="img/blog11.jpg" alt="">
@@ -259,7 +263,8 @@
 
 <!-- footer section starts  -->
 
-<section class="footer">
+<section class="footer" data-aos="fade-up">
+    
 
     <div class="box-container">
 
@@ -327,6 +332,10 @@
 
 
 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 
 

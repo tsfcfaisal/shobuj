@@ -530,6 +530,7 @@ section{
     text-align: center;
     padding: 3rem 3rem 3rem 3rem;
     font-size: 2.5rem;
+    margin-top: 8rem;
 }
 
 .shop .box-container{
@@ -710,154 +711,48 @@ section{
         background: var(--black);
         color:#fff;
     } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.detail{
+    margin-top: 7rem;
+}
+
+.detail .col-lg-7 img{
+    max-width: 55rem;
+}
+
+.detail .col-lg-7 ul li img{
+    max-width: 15rem;
+}
+
+.detail .col-lg-7 ul li{
+    display: inline-block;
+    padding-right: 4rem;
+}
+
+.detail .col-lg-5 ul li{
+    text-align: left;
+    display: inline-block;
+}
+.detail .col-lg-5 h1{
+    font-size: 4rem;
+    padding-bottom: 3rem;
+}
+
+.detail .col-lg-5 h3{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.detail .col-lg-5 .btn{
+    width: 15rem;
+    height: 3rem;
+    margin-bottom: 3rem;
+}
+
+.detail .col-lg-5 ul{
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+
+}
 
 
 
